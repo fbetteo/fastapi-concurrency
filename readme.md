@@ -1,5 +1,5 @@
 
-# Trying to understand with examples how FastAPI works
+# Trying to understand with examples how FastAPI concurrency works
 
 What blocks the main thread? what not? what are the differences in thread managing? memory consumption?  
 All from a simple point of view. 
