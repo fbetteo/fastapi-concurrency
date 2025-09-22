@@ -7,6 +7,8 @@ All from a simple point of view.
 ## How to run this
 The following is to create the docker image and start the API. I'm using docker so it's similar to an actual server and anyone can try and regenerate the results.  
 If you don't want , you can just run in the terminal `fastapi dev main.py`  
+
+For docker:  
 `docker build -t fastapi-test .`
 
 You can adjust the memory allocation, I wanted to test with a simple server and see crashes quickly.  
