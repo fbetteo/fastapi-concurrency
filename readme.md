@@ -2,7 +2,10 @@
 # Trying to understand with examples how FastAPI concurrency works
 
 What blocks the main thread? what not? what are the differences in thread managing? memory consumption?  
-All from a simple point of view. 
+All from a simple point of view.  
+
+Infinite thanks to [@Chris](https://stackoverflow.com/users/17865804/chris) for all the answers in StackOverflow which are truly enlightening. I've used 
+[this](https://stackoverflow.com/questions/77935269/performance-results-differ-between-run-in-threadpool-and-run-in-executor-in/77941425#77941425), [this](https://stackoverflow.com/questions/71516140/fastapi-runs-api-calls-in-serial-instead-of-parallel-fashion/71517830#71517830) and [this](https://stackoverflow.com/questions/70872276/fastapi-python-how-to-run-a-thread-in-the-background/70873984#70873984) extensively to grasp what's going on and I know I will read them over and over again.  
 
 ## How to run this
 The following is to create the docker image and start the API. I'm using docker so it's similar to an actual server and anyone can try and regenerate the results.  
