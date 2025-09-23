@@ -28,6 +28,9 @@ For instance, running from the terminal:
 
 ## Usage
 
+For a quick snpashot of results, without running anything,  you can just go to `app/main.py` and inside each function the comments will tell you the result and behaviour of each function.  
+If you want to test yourself, read below.
+
 ### Blocking or not.
 What I did was to build and run the Docker image explained above.  
 
