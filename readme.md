@@ -7,6 +7,9 @@ All from a simple point of view.
 Infinite thanks to [@Chris](https://stackoverflow.com/users/17865804/chris) for all the answers in StackOverflow which are truly enlightening. I've used 
 [this](https://stackoverflow.com/questions/77935269/performance-results-differ-between-run-in-threadpool-and-run-in-executor-in/77941425#77941425), [this](https://stackoverflow.com/questions/71516140/fastapi-runs-api-calls-in-serial-instead-of-parallel-fashion/71517830#71517830) and [this](https://stackoverflow.com/questions/70872276/fastapi-python-how-to-run-a-thread-in-the-background/70873984#70873984) extensively to grasp what's going on and I know I will read them over and over again.  
 
+> For a quick snpashot of the results, without running anything,  you can just go to `app/main.py` and inside each function the comments will tell you the result and behaviour of each function.  
+If you want to test yourself, read below.
+
 ## How to run this
 The following is to create the docker image and start the API. I'm using docker so it's similar to an actual server and anyone can try and regenerate the results.  
 If you don't want , you can just run in the terminal `fastapi dev main.py`  
@@ -27,9 +30,6 @@ For instance, running from the terminal:
 `artillery quick --count 8 --num 2 http://localhost:8000/run_in_threadpool_memory`
 
 ## Usage
-
-For a quick snpashot of results, without running anything,  you can just go to `app/main.py` and inside each function the comments will tell you the result and behaviour of each function.  
-If you want to test yourself, read below.
 
 ### Blocking or not.
 What I did was to build and run the Docker image explained above.  
